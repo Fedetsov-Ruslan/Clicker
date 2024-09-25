@@ -142,7 +142,7 @@ if persent.height == 768:
                 pgui.moveTo(120, 120)
 
                 print('Скролл')
-                pgui.scroll(-350)
+                pgui.scroll(-175)
                 pgui.moveTo(132, 250)
                 pgui.sleep(1)
 
@@ -157,7 +157,7 @@ if persent.height == 768:
                 pgui.sleep(5)
             else:
                 print('Скролл')
-                pgui.scroll(-250)
+                pgui.scroll(-125)
                 pgui.sleep(2)
         except Exception as e:
             telegram_bot.send_massage_print(f'Неизвестная ошибка\n{e}')
